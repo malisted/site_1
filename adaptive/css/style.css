@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: "Manrope", sans-serif;
+}
+
+img {
+	display: block;
+}
+
+.main-page{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Хедер */
+
+.header {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e5e9f2;
+	height: 73px;
+}
+.header-container {
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	margin-right: 40px;
+}
+.nav {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1;
+	color: #18191f;
+}
+
+.nav-link {
+	margin-right: 32px;
+	color: #18191f;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	color: #8c30f5;
+}
+
+.nav-link:last-child {
+	margin-right: 0;
+}
+
+.appstore {
+	margin-left: auto;
+	display: flex;
+}
+
+.appstore-item {
+	margin-left: 12px;
+}
+
+.appstore-item:first-child {
+	margin-left: 0;
+}
+
+/* Меин */
+
+.main {
+}
+.main-container {
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 197px;
+	padding-bottom: 197px;
+}
+
+.main-img {
+}
+.main-content {
+	width: 540px;
+	font-size: 18px;
+	color: #18191f;
+	margin-bottom: 32px;
+}
+
+.main-header {
+	font-weight: 800;
+	margin-top: 0;
+	font-size: 72px;
+	line-height: 1.36;
+	color: #18191f;
+	margin-bottom: 16px;
+}
+
+.main-text {
+	margin-bottom: 32px;
+}
+
+.main-text p {
+	font-size: 18px;
+	line-height: 1.78;
+}
+
+.button {
+	display: inline-block;
+	padding-left: 35px;
+	padding-right: 35px;
+	height: 62px;
+	background: #8c30f5;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 62px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+
+
+/* Футер */
+
+.footer {
+	background-color: #0B0D17;
+	height: 72px;
+	color: #D9DBE1;
+	display: flex;
+		align-items: center;
+}
+
+.footer-conteiner {
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-copyright {
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+
+.footer-socials {
+	display: flex;
+}
+
+.footer-item{
+	margin-right: 16px;
+}
+
+.footer-item:last-child{
+	margin-right: 0;
+}
